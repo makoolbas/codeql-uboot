@@ -1,0 +1,14 @@
+To submit this query via Pull Request, you can follow the following workflow:
+
+1. First, refresh your main branch, commit your changes to a new branch, and push them:
+git checkout main
+git pull
+git checkout -b step-3
+git add .
+git commit -a -m "First Query"
+git push -u origin step-3
+
+2. Then open a pull request. https://github.com/makoolbas/codeql-uboot/compare/main...step-3
+3. Wait for the course to check your query. It will display a status on your pull request!
+4. Once the check is completed, refresh your browser to get the next set of instructions.
+5. If the status is green, merge your PR and follow these instructions.
